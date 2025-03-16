@@ -59,7 +59,7 @@ namespace DungeonExplorer
             //combat will be added later
         };
 
-        //debug bs
+        //debug
         public void SwitchStates(GridButton_States State)
         {
         }

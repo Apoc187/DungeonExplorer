@@ -335,7 +335,7 @@ namespace DungeonExplorer
 
         }
 
-        //unusedd
+        //unused
         public void Scenario_Click()
         {
             
@@ -580,7 +580,7 @@ namespace DungeonExplorer
                 //case 21:
                 //    Combat_Interaction(Player.Instance.CurrentEnemy, Action_Number);
                 //    break;
-                //adding combat later cos fuck this shit
+                //adding combat later because of time constaints
 
 
 
@@ -700,7 +700,7 @@ namespace DungeonExplorer
             LogicToDisplay.Instance.SwitchStates(state);
         }
 
-        //properly sets the map so it doesn't turn to null like C# loves to do
+        //properly sets the map so it doesn't turn to null
         public void Store_Map()
         {
             Stored_MapGrid = MainGameHandling.Instance.Get_Rooms(false);
@@ -762,7 +762,7 @@ namespace DungeonExplorer
             }
 
 
-            //cba to add effects either
+            //effects, unused because of time constraints
             //if (EffectsList.OfType<Effect>().Any())
             //{
             //    for (int EffectIndex = 0; EffectIndex <= EffectsList.Count(); EffectIndex++)
